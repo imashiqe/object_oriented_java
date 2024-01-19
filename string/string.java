@@ -1,3 +1,4 @@
+import java.util.*; 
 public class string {
 
 
@@ -6,10 +7,23 @@ public class string {
 
      public static void main(String[] args)
       {
-         char[] strChar = {'h', 'e', 'l', 'l', 'o'};
-           String str = "hello";
+        //  char[] strChar = {'h', 'e', 'l', 'l', 'o'};
+        //    String str = "hello";
        
-         System.out.println(str.hashCode());
+        //  System.out.println(str.hashCode());
+
+        String s = "Hello World";
+
+        
+        String s2 = s.toLowerCase();
+        String s3 = s.toUpperCase();
+        Integer s4 = s.length();
+     
+        System.out.println(s2);
+        System.out.println(s3);
+        System.out.println(s4);
+
+      
       }
 
         //Hello World 
